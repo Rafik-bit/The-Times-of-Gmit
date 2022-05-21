@@ -1,0 +1,51 @@
+{
+  "name": "fstapp",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4780",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "history": "^5.0.0",
+    "iframe-react": "^1.0.1",
+    "mdbreact": "^5.0.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^17.0.1",
+    "react-iframe": "^1.8.0",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "typekit": "^0.1.1",
+    "upper-case": "^2.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
